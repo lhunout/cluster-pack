@@ -1,6 +1,6 @@
 pypandoc<1.8
 pyspark
-pytest
+pytest<9.1  # pylama's pytest plugin uses the `path` hook arg removed in pytest 9.1
 pyflakes==2.4.0
 pylama
 mypy
